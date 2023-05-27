@@ -107,17 +107,28 @@ main{
     padding: 1em;
     transition: all 400ms ease;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+
 }
 
 .card img{
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
     object-fit: contain;
     height: 200px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    margin-bottom: 2em;
 }
 
-.card:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transform: translateY(-4%);
-    
+.card img:hover{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
 }
 
 footer{

@@ -424,7 +424,7 @@ transform: rotate(359deg);
 
         #headersm{
             display: flex;
-            background-color: #2a475e;
+            background-color: #79abd4;
             grid-area: headersm;
             color: white;
             justify-content: space-between;
